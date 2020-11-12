@@ -84,8 +84,7 @@ Percent Return: {}
                         row['Game Date'],
                         row['Source 1'], str(team_1_bet)[:5], row['Team 1'].split(' ')[0],
                         row['Source 2'], str(team_2_bet)[:5], row['Team 2'].split(' ')[0],
-                        str(pct_return)[:4])
-            client = Client("AC180fd60368653033809f04f22c6876bf", "2100f6d0b582768c7e83205950281dc4")
+                        str(pct_return)[:4])    
             client.messages.create(to="+14152794558", 
                         from_="+12568263331", 
                         body=message)
